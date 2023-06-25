@@ -1,0 +1,197 @@
+.top-head{
+    padding-bottom: 4em;
+    padding-top: 10em;
+}
+.t-logo{
+    max-width: 250px;
+}
+.feature-div{
+    padding-top: 5em;
+    padding-bottom: 6em;
+}
+
+
+/* ---------- CTA buttons --------- */
+.cta-but{
+    cursor: pointer;
+    border-radius: 28px;
+    font-size: 16px;
+    padding: 10px 40px;
+    border: solid hsl(322, 100%, 66%) 2px;
+}
+.cta-but a{
+    text-decoration: none;
+    color: hsl(322, 100%, 66%);
+}
+.cta-but:hover{
+    box-shadow: 4px 3px 10px #e3e3e3;
+    border: solid hsl(321, 100%, 78%) 2px;
+}
+
+
+/* ----------mid / intro CTA --------- */
+.cta-int{
+    cursor: pointer;
+    margin: 3em;
+    border-radius: 40px;
+    font-size: 16px;
+    background: hsl(322, 100%, 66%);
+    padding: 20px 40px 20px 40px;
+}
+.cta-mid-bu{
+    margin-top: 2em;
+    border-radius: 50px;
+    max-width: 350px;
+    padding: 20px 40px 20px 40px;
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    font-size: 16px;
+}
+.cta-mid-bu a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.cta-mid-bu:hover{
+    background-color: hsl(321, 100%, 78%);
+    box-shadow: 4px 3px 10px #e0e0e0;
+}
+.cta-box{
+    padding: 6em 10em;
+}
+
+.cta-int a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.cta-int:hover{
+    background-color: hsl(321, 100%, 78%);
+    box-shadow: 4px 3px 10px #e0e0e0;
+}
+
+
+/* ---------- footer --------- */
+footer p{
+    font-size: 14px;
+}
+
+footer{
+    color: white;
+}
+.footer-div{
+    background-color: hsl(192, 100%, 9%);
+}
+footer button{
+    background-color: hsl(322, 100%, 66%);
+    border: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+
+/* ---------- icons --------- */
+.icon-div{
+    margin: 5em auto;
+}
+
+#ig-is{
+    position: relative;
+    top: -10px;
+    color: white;
+}
+#ig-is:hover{
+    color: #07C8FA;
+}
+.icon-s{
+    background-color: white;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    border-radius: 12%;
+  }
+  .icon-s:hover{
+    background-color: #07C8FA;
+  }
+  i{
+    color: #00252E;
+    cursor: pointer;
+    overflow: hidden;
+    padding: 9px;
+  }
+
+/* ---------- bottom parts --------- */
+input{
+    cursor: pointer;
+    border-radius: 8px;
+    width: 300px;
+    font-size: 16px;
+    padding: 1em 0 1em 1em;
+}
+.news button{
+    cursor: pointer;
+    margin-left: 2em;
+    padding: 1em 3em;
+    border-radius: 8px;
+}
+
+
+/*-------- media queries --------*/
+
+@media (max-width:1290px){
+    .news button{
+        margin-bottom: 7em;
+        margin-left: 0;
+        margin-top: 2em;
+    }    
+}
+
+@media (max-width:840px){
+    .top-nav{
+        padding-top: 3em;
+    }
+    .icon-div{
+        margin: 5em auto 0 auto;
+    }
+    .cta-box{
+        padding: 6em 2em;
+    }
+}
+@media (max-width:600px){
+    .cta-mid-bu{
+        padding: 10px;
+    }
+    .two-feat{
+        margin-top: 3em;
+        width: 180px;
+        align-self: center;
+    }
+
+}
+@media (max-width:500px){
+    .top-head{
+        padding-top: 6em;
+    }
+    .cta-int{
+        padding: 10px ;
+    }
+    .cta-but{
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+    .t-logo{
+        width: 200px;
+    }
+}
+
+@media (max-width:400px){
+    .t-logo{
+        width: 150px;
+    }
+    .cta-but{
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+    input{
+        width: 275px;
+    }
+
+}
